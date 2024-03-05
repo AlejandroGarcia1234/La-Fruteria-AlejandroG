@@ -5,6 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Frutería La Quinta Fila</title>
+  <link rel="stylesheet" href="./styles/swiper-bundle.min.css">
   <link rel="stylesheet" href="./styles/normalize.css">
   <link rel="stylesheet" href="./styles/main.css">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
@@ -33,7 +34,10 @@
 
   <section class="wrap-1 hero">
     <div class="hero-body">
-      <h1>Rincon Fruticola <br>La Quinta Fila</h1>
+      <button id="dark-mode-toggle">
+          <img src="/assets/imgs/night-mode.png" alt="Dark Mode">
+      </button>
+      <h1>Rincón Fruticola <br>La Quinta Fila</h1>
       <p>
         Tenemos muchas frutas o eso creemos. A veces nos roban los ratones
         gigantes que hay debajo de la nevera pero que se le va a hacer. La verdad estoy rellenando esto para ocupar más, Lorem impsum estaría bien usarlo pero soy masoca.
@@ -170,7 +174,7 @@
       </article>
     </div>
 
-    <!--Carrusel_imágenes-->
+    <!--Carrusel imágenes-->
     <section>
       <div class="carousel">
         <button id="backward" class="carousel-btn"><i class="fa-solid fa-arrow-left fa-lg" style="color: #6f7276;"></i></button>
@@ -197,6 +201,7 @@
       </div>
     </footer>
 
+    <script src="./scripts/swiper-bundle.min.js"></script>
     <script src="./scripts/main.js"></script>
     <script src="http//tholman.com/elevator.js/elevator.js"></script>
 </body>
